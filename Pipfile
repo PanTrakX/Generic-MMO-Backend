@@ -9,6 +9,7 @@ djangorestframework = "*"
 pylint = "*"
 pylint-django = "*"
 autopep8 = "*"
+dj-rest-auth = "*"
 
 [dev-packages]
 
