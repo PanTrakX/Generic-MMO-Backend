@@ -3,7 +3,7 @@ from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 
 from core.models import Character
-from api.serializers import CharacterOutputSerializer, CharacterInputSerializer
+from universe.serializers import CharacterOutputSerializer, CharacterInputSerializer
 
 
 class CharactersViewSet(viewsets.ModelViewSet):
