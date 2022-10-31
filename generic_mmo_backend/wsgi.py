@@ -1,5 +1,5 @@
 """
-WSGI config for multiplayer_rpg_backend project.
+WSGI config for generic_mmo_backend project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'multiplayer_rpg_backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'generic_mmo_backend.settings')
 
 application = get_wsgi_application()
