@@ -7,3 +7,9 @@ class GameServerInstanceSerializer(serializers.ModelSerializer):
     class Meta:
         model = GameServerInstance
         fields = '__all__'
+
+
+class GameServerInstanceForPlayerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GameServerInstance
+        fields = ['ip', 'port']
