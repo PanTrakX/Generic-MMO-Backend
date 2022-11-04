@@ -5,7 +5,7 @@ from django.contrib.auth.models import AbstractUser
 
 
 class User(AbstractUser):
-    pass
+    (is_server := models.BooleanField(default=False))
 
 
 class Character(models.Model):

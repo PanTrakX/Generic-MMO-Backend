@@ -2,9 +2,10 @@ from django.db import models
 
 from datetime import datetime
 # Create your models here.
+from core.models import User
 
 
-class GameServerInstance(models.Model):
+class GameServerInstance(User):
 
     (ip := models.GenericIPAddressField())
     (port := models.PositiveIntegerField())
