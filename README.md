@@ -11,7 +11,7 @@ A Generic MMO Game Backend Made With Django / Python.
 ### 1.1 Terminology
 
 AuthServer = Web Server responsible for the authentication  
-DataServer = Web Server responsible for the persistent storage of the game 
+DataServer = Web Server responsible for the persistent storage of the game  
 MatchmakingServer = Web Server that acts as intermediary between the client and the GameServerManager  
 GameServerManager = A cluster manager responsible for starting/stoping GameServerInstances  
 GameServerInstance = An instance of the game server
