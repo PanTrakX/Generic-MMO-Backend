@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 
     'api',
     'core',
-    'universe',
+    'data',
     'matchmaking',
     'authentication',
 ]

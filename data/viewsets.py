@@ -2,8 +2,8 @@ from rest_framework import viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 
-from core.models import Character
-from universe.serializers import CharacterOutputSerializer, CharacterInputSerializer
+from .models import Character
+from data.serializers import CharacterOutputSerializer, CharacterInputSerializer
 
 
 class CharactersViewSet(viewsets.ModelViewSet):

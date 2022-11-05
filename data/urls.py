@@ -1,6 +1,6 @@
 from rest_framework.routers import DefaultRouter
 
-from universe.viewsets import CharactersViewSet
+from data.viewsets import CharactersViewSet
 
 
 router = DefaultRouter()

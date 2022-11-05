@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from core.models import Character
+from .models import Character
 
 
 class CharacterInputSerializer(serializers.ModelSerializer):
