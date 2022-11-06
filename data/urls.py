@@ -4,6 +4,6 @@ from data.viewsets import CharactersViewSet
 
 
 router = DefaultRouter()
-router.register(r'characters', CharactersViewSet)
+router.register(r'characters', CharactersViewSet, basename='Characters')
 
 urlpatterns = router.urls
