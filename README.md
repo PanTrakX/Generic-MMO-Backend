@@ -30,7 +30,15 @@ PlayerClient = The game client of the player
 3. If there is an available GameServerInstance, the MatchmakingServer responds to the PlayerClient with the IP and the Port of the GameServerInstance, else it is gonna send a request to the GameServerManager to spawn one
 
 ## 2. API Specification
-
+- api/
+  - auth/
+    - login/
+  - data/
+    - characters/
+  - matchmaking/
+    - gameserverinstances/
+    - get_game_server_instance/
+      
 
 ## 3. Authors
 
