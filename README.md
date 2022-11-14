@@ -1,18 +1,22 @@
 # Generic MMO Backend
-A Generic MMO Game Backend Made With Django / Python.
+A Generic MMO Game Backend Made With Django / Python.  
+Platform and engine agnostic   
 
 
 * [1. Architecture](#architecture)
 * [2. API Specification](#api-specification)
 * [3. Authors](#authors)
 
-
 ## 1. Architecture
 ### 1.1 Terminology
+
 
 AuthServer = Web Server responsible for the authentication  
 DataServer = Web Server responsible for the persistent storage of the game  
 MatchmakingServer = Web Server that acts as intermediary between the client and the GameServerManager  
+
+(The following are not implemented here as they are not platform/engine agnostic)
+
 GameServerManager = A cluster manager responsible for starting/stoping GameServerInstances  
 GameServerInstance = An instance of the game server
 
